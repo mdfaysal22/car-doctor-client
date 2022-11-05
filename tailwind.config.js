@@ -5,6 +5,21 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      'orange': '#FF3811',
+      'gray': '#737373',
+      'light':'#ffffff',
+      'dark': '#000000',
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes:[],
+  },
 }
